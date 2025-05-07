@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript DOM Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>DOM Manipulation</h1>
+  </header>
+
+  <section>
+    <p id="description">This paragraph will change when you click the button.</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="toggleHighlight()">Toggle Highlight</button>
+  </section>
+
+  <section>
+    <button onclick="addElement()">Add Name</button>
+    <button onclick="removeElement()">Remove Name</button>
+    <ul id="item-list">
+      <li>Ian</li>
+    </ul>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
